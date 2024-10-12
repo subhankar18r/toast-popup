@@ -1,4 +1,3 @@
-console.log("start");
 const toastContainer = document.querySelector(".toast-container");
 
 function showToast(msg) {
