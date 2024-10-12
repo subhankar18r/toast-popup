@@ -28,3 +28,11 @@ function showToast(msg) {
     toast.remove();
   }, 5000);
 }
+
+const popup = document.getElementById("popup");
+function showPopup() {
+  popup.classList.add("open");
+}
+function closePopup() {
+  popup.classList.remove("open");
+}

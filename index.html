@@ -15,8 +15,17 @@
       <button onclick="showToast('Success')">success</button>
       <button onclick="showToast('Error')">Error</button>
       <button onclick="showToast('Invalid')">Invalid</button>
+      <button onclick="showPopup()">Popup</button>
 
       <div class="toast-container"></div>
+      <div id="popup">
+        <h2>Thank You</h2>
+        <p>
+          Lorem, ipsum dolor. Lorem ipsum dolor sit amet, consectetur
+          adipisicing.
+        </p>
+        <button type="button" onclick="closePopup()">Close</button>
+      </div>
     </div>
     <script src="./script.js"></script>
   </body>
